@@ -21,7 +21,6 @@ Route::get('/', function () {
             ['name' => 'account', 'link' => 'account'],
         ],
     ];
-
     return view('home', $data);
 })->name('home');
 
